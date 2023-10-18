@@ -38,7 +38,7 @@ void Project::new_folder(void)
     getcwd(path_target_temp, 1000);
     strcat(path_target_temp, "\\");
     strcat(path_target_temp, target_name);
-    strcat(path_not_used_temp, path_target_temp);  // 在目标路径前添加 "
+    strcat(path_not_used_temp, path_target_temp);  // 鍦ㄧ洰鏍囪矾寰勫墠娣诲姞 "
     strcat(path_not_used_temp, "\" /e");
     strcat(path_command, source_name);
     strcat(path_command, path_not_used_temp);
